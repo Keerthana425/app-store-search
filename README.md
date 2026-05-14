@@ -1,19 +1,7 @@
-In this project, let's build an **App Store** by applying the concepts we have learned till now.
-
-### Refer to the image below:
-
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/app-store-output.gif" alt="app store output" style="max-width:30%;min-height:30%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-
 # App Store
 
 A simple and responsive App Store application built using React.js.  
 Users can browse apps by category and search apps instantly using the search bar.
-
----
 
 ## 🚀 Features
 
@@ -25,6 +13,17 @@ Users can browse apps by category and search apps instantly using the search bar
 - Clean and simple design
 
 ---
+
+<br/>
+<div style="text-align: center;">
+    <img src="https://assets.ccbp.in/frontend/content/react-js/app-store-output.gif" alt="app store output" style="max-width:30%;min-height:30%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+</div>
+<br/>
+
+
+---
+
+
 
 ## 🛠️ Technologies Used
 
