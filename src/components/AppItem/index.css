@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.app-list {
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  height: 180px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img-name {
+  height: 100px;
+  width: 100px;
+}
+.app-name {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
