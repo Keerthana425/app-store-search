@@ -4,146 +4,91 @@ In this project, let's build an **App Store** by applying the concepts we have l
 
 <br/>
 <div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/app-store-output.gif" alt="app store output" style="max-width:90%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+    <img src="https://assets.ccbp.in/frontend/content/react-js/app-store-output.gif" alt="app store output" style="max-width:30%;min-height:30%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
 
-### Design Files
+# App Store
 
-<details>
-<summary>Click to view</summary>
+A simple and responsive App Store application built using React.js.  
+Users can browse apps by category and search apps instantly using the search bar.
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/app-store-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/app-store-lg-output-v2.png)
+---
 
-</details>
+## 🚀 Features
 
-### Set Up Instructions
+- Category-based app filtering
+- Real-time search functionality
+- Responsive UI
+- React Components
+- Dynamic rendering using lists
+- Clean and simple design
 
-<details>
-<summary>Click to view</summary>
+---
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+## 🛠️ Technologies Used
 
-### Completion Instructions
+- React.js
+- JavaScript
+- CSS3
+- JSX
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+---
 
-The app must have the following functionalities
+## 📂 Project Structure
 
-- Initially, the **Social** tab should be active and the apps with **Social** as their category should be displayed
-- When a value is provided in the search input
-  - The apps in the active category, that include search input value in their name should be displayed
-  - When another tab is clicked, the apps in the corresponding category, that include search input value in their name should be displayed
-  - The search should be case insensitive
-- When the search input is empty,
-  - All the apps in the active category should be displayed
-  - When another tab is clicked, the apps in the corresponding category should be displayed
-- The `AppStore` component is provided with `tabsList`. It consists of a list of tabItem objects with the following properties in each tabItem object
+src/
+├── components/
+│ ├── AppStore/
+│ ├── AppItem/
+│ └── TabItem/
+├── App.js
+├── index.js
+└── index.css
 
-  |     Key     | Data Type |
-  | :---------: | :-------: |
-  |    tabId    |  String   |
-  | displayText |  String   |
+---
 
-- The `AppStore` component is provided with `appsList`. It consists of a list of app objects with the following properties in each app object
+## 📸 Categories Included
 
-  |   Key    | Data Type |
-  | :------: | :-------: |
-  |  appId   |  Number   |
-  | appName  |  String   |
-  | imageUrl |  String   |
-  | category |  String   |
+- Social
+- Games
+- News
+- Food
 
-</details>
+---
 
-<details>
-<summary>Components Structure</summary>
+## ⚙️ Installation
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/app-store-component-structure-breakdown.png" alt="app store component structure breakdown" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+1. Clone the repository
 
-</details>
+```bash
+git clone https://github.com/Keerthana425/app-store-search/
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+Navigate to the project folder
 
-Use these files to complete the implementation:
+cd react-app-store
 
-- `src/components/AppStore/index.js`
-- `src/components/AppStore/index.css`
-- `src/components/TabItem/index.js`
-- `src/components/TabItem/index.css`
-- `src/components/AppItem/index.js`
-- `src/components/AppItem/index.css`
+Install dependencies
 
-</details>
+npm install
 
-### Quick Tips
+Start the development server
 
-<details>
-<summary>Click to view</summary>
-<br>
+npm start
 
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
+🔍 Functionality
 
-  ```
-    cursor: pointer;
-  ```
+Click tabs to filter apps by category
+Search apps using the search input
+Apps update dynamically based on search and category
 
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
+📌 Future Improvements
 
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
+Dark mode support
+Backend integration
+App details page
+Favorites feature
 
-  ```
-    outline: none;
-  ```
+👩‍💻 Author
 
-</details>
-
-### Resources
-
-<details>
-<summary>Image URLs</summary>
-
-- [https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png](https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png) alt should be **search icon**
-
-</details>
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #fff1eb; width: 150px; padding: 10px; color: black">Hex: #fff1eb</div>
-<div style="background-color: #ace0f9; width: 150px; padding: 10px; color: black">Hex: #ace0f9</div>
-<div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
-<div style="background-color: #7b8794; width: 150px; padding: 10px; color: white">Hex: #7b8794</div>
-<div style="background-color: #dfe2e5; width: 150px; padding: 10px; color: black">Hex: #dfe2e5</div>
-<div style="background-color: #2563eb; width: 150px; padding: 10px; color: white">Hex: #2563eb</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Bree Serif
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+Keerthana Reddy
